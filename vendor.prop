@@ -228,6 +228,7 @@ vendor.gralloc.disable_ubwc=0
 ro.config.avoid_gfx_accel=true
 debug.sf.use_phase_offsets_as_durations=0
 debug.sf.enable_egl_image_tracker=0
+vendor.display.vds_allow_hwc=1
 
 # HVDCP
 persist.vendor.pps.disallowed=1
