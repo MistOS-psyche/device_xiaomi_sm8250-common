@@ -375,4 +375,6 @@
          DOZE_AOD_PAUSED to DOZE_AOD state. -->
     <bool name="config_displayTurnsOnWhenResumingAod">true</bool>
 
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
 </resources>
