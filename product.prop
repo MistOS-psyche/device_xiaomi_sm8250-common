@@ -7,3 +7,9 @@ ro.lmk.psi_partial_stall_ms=50
 ro.lmk.swap_util_max=85
 ro.lmk.thrashing_limit=40
 ro.lmk.thrashing_limit_decay=20
+
+# MTE
+persist.arm64.memtag.app.com.android.se=off 
+persist.arm64.memtag.app.com.google.android.bluetooth=off 
+persist.arm64.memtag.app.com.android.nfc=off 
+persist.arm64.memtag.process.system_server=off
