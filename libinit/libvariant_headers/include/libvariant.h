@@ -16,8 +16,12 @@ struct variant_info {
     std::string brand;
     std::string device;
     std::string marketname;
+    std::string name;
+    std::string mod_device;
     std::string model;
     std::string build_fingerprint;
+    std::string cert;
+    std::string flavor;
 
     bool nfc;
 };
