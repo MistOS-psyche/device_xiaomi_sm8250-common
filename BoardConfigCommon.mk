@@ -79,7 +79,7 @@ $(call soong_config_set,camera,package_name,com.android.camera)
 # Camera - HIDL overrideFormat
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 
-TARGET_CAMERA_SERVICE_EXT_LIB := //$(COMMON_PATH):libcameraservice_extension.sm8250
+$(call soong_config_set,libcameraservice,ext_lib,libcameraservice_extension.sm8250)
 
 # Display
 BOARD_USES_ADRENO := true
