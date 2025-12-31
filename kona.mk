@@ -333,6 +333,7 @@ PRODUCT_PACKAGES += \
     DeviceAsWebcamOverlayCommon \
     FrameworkResOverlayCommon \
     LineageSDKOverlayCommon \
+    LineageDialerInCallUIOverlay \
     SettingsOverlayCommon \
     SettingsProviderOverlayCommon \
     SystemUIOverlayCommon \
