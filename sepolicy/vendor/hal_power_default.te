@@ -12,3 +12,5 @@ allow init sysfs_battery_supply:file rw_file_perms;
 
 allow hal_power_default fwk_stats_service:service_manager find;
 allow hal_power_default hal_thermal_default:binder { call transfer };
+
+hal_client_domain(hal_power_default, hal_thermal)
